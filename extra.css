@@ -1,0 +1,115 @@
+.chart-area {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.d1 {
+    fill: none;
+    stroke: rgb(179, 179, 150);
+    stroke-width: 5px;
+    /* vector-effect: non-scaling-stroke; */
+}
+
+.d2 {
+    fill: none;
+    stroke: rgb(114, 114, 69);
+    stroke-width: 5px;
+    /* vector-effect: non-scaling-stroke; */
+}
+
+
+svg {
+    position: initial;
+    top: 100px;
+}
+
+.sourceBox {
+    position: absolute;
+    right: 50%;
+    z-index: 999;
+    background-color: lightpink;
+    padding: 10px;
+}
+
+.viewB {
+    position: absolute;
+    right: 50%;
+    transform: translate(350px, -200px);
+}
+
+.discription {
+    position: absolute;
+    height: 100%;
+    background-color: rgb(78, 58, 50, 0.5);
+}
+
+.discription h2 {
+    margin: auto 30px;
+}
+
+.discription p {
+    margin: auto 30px;
+}
+
+.box {
+    width: 1000px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin: 10px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.box2 {
+    width: 480px;
+    height: 330px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin: 10px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+@media screen and (max-width: 768px)
+{
+    .chart-area {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+
+
+    .box {
+        width: 80vw;
+        height: 60vw;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        margin: 10px auto 10px 15px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .box2 {
+        width: 80vw;
+        height: 60vw;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        margin: 10px auto 10px 15px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+
+    .viewB {
+        position: absolute;
+        right: 50%;
+        transform: translate(170px, -200px);
+    }
+}
